@@ -1,0 +1,367 @@
+*{
+    margin: 1%
+}
+
+@media (orientation: portrait) {
+    #cursor{
+        display: none
+    }
+
+    #me{
+        background: -webkit-linear-gradient(150deg, #a564e5, #e58cb8, #a0e9ff, #edca85);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vh;
+        letter-spacing: 0.3vh;
+        margin-bottom: 5vh;
+    }
+
+    #medesc{
+        font-family: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+        max-width: 90vw;
+        margin-bottom: 1vh;
+        font-size: 1vh;
+    }
+
+    body, html{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        scrollbar-width: 0;
+        /*display: flex;*/
+        width: 100vw;
+        background: -webkit-linear-gradient(#111111, #000000);
+        color: aliceblue;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pfp{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    
+    .pfp > img{
+        max-width: 90vw;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .container{
+        padding: 2vh 2vw 2vh 2vw;
+        margin-bottom: 5vh;
+        max-height: 100vh;
+        font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+        justify-content: left;
+        width: 85vw;
+        transition-duration: 1s;
+        border-radius: 15px;
+        background: #191919;
+        transition-duration: 0.5s;
+    }
+
+    .container:hover{
+        box-shadow: 16px 16px 16px #7D9D9C,
+        -16px -16px 16px #576F72;
+        background: #131313;
+        transition-duration: 0.5s;
+    }
+
+    a{
+        text-decoration: underline;
+        color: aliceblue;
+    }
+    
+    h4{
+    	font-size: 1vh;
+    }
+    
+    h3{
+    	font-size: 1.5vh;
+    }
+    
+    h2{
+    	font-size: 2vh;
+    }
+
+    #username{
+        font-family: Recoleta, Biotif-Regular, Helvetica, Arial, sans-serif;
+        letter-spacing: 0.5vw;
+    }
+
+    #paste{
+        background: -webkit-linear-gradient(150deg, #7823cc, #f53595, #29a1c5, #af8635);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vh;
+        letter-spacing: 0.3vh;
+        margin-bottom: 5vh;
+    }
+
+    .container > p{
+        font-size: 1vh;
+        font-family: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+        max-width: 90vw;
+    }
+
+    .langs{
+        font-size: 3vh;
+    }
+
+    .lcontainer{
+        padding: 2vh 2vw 2vh 2vw;
+        margin-bottom: 5vh;
+        font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 2vw;
+        text-align: center;
+        width: 35vw;
+        transition-duration: 1s;
+        border-radius: 15px;
+        background: #191919;
+        transition-duration: 0.5s;
+    }
+
+    .lcontainer:hover{
+        box-shadow: 2px 4px 21px 11px #7D9D9C;
+        background: #131313;
+        transition-duration: 0.5s;
+    }
+
+    #test > *{
+        display: inline-block;
+    }
+
+    .end{
+        margin-bottom: 6vh; 
+        font-size: 1.5vh;
+    }
+
+    .mhm{
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    .signature{
+        text-decoration: underline;
+        font-family: 'Brittany Signature';
+        bottom: 0
+    }
+}
+
+@media (orientation: landscape) {
+    #cursor {
+        width:0vh;
+        height:0vh;
+        position: absolute;
+        left:0;
+        top:0;
+        transform: translateX(-3vw) translateY(-2vh);
+        border-radius : 10px;
+        background-color : white;
+        pointer-events: none;
+    }
+
+    @keyframes hide {
+        from { width: 3vh; height: 3vh; }
+          to { width: 0vh; height: 0vh;}
+     }
+     
+     @keyframes show {
+        from { width: 0vh; height: 0vh; }
+          to { width: 3vh; height: 3vh; }
+     }
+
+     @keyframes moush {
+        from { border-width: 0; }
+        to { border-width: 5vh; }
+     }
+
+    .hide{
+        animation: hide .5s ;
+        -moz-animation: hide .5s ;
+        -o-animation: hide .5s ;
+        -ms-animation: hide .5s ;
+    }
+      
+    .show{
+        animation: show .5s ;
+        -moz-animation: show .5s ;
+        -o-animation: show .5s ;
+        -ms-animation: show .5s ;
+    }
+    
+    #me{
+        background: -webkit-linear-gradient(150deg, #a564e5, #e58cb8, #a0e9ff, #edca85);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vw;
+        letter-spacing: 0.3vw;
+        margin-bottom: 5vh;
+    }
+
+    #medesc{
+        font-family: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+        max-width: 90vw;
+        margin-bottom: 1vh;
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    body, html{
+        width: 100vw;
+        cursor: none;
+        background: -webkit-linear-gradient(#111111, #000000);
+        color: aliceblue;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pfp{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    .al{
+        display: flex;
+    }
+    
+    .pfp > img{
+        max-width: 50vw;
+        max-height: 45vw;
+        border-radius: 15px;
+        transition-duration: 0.5s;
+    }
+
+    h4{
+        font-size: 1vw;
+    }
+
+    h2{
+        font-size: 2vw;
+    }
+
+    h3{
+        font-size: 1.5vw;
+    }
+
+    .container > div{
+        line-height: 1.5em;
+    }
+
+    .container{
+        padding: 2vh 2vw 2vh 2vw;
+        margin-bottom: 5vh;
+        max-height: 45vw;
+        font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+        justify-content: left;
+        width: 85vw;
+        transition-duration: 1s;
+        border-radius: 15px;
+        background: #191919;
+        transition-duration: 0.5s;
+    }
+
+    .pfp > img:hover{
+        box-shadow: 2px 4px 10px 10px #7D9D9C;
+        transition-duration: 0.5s;
+    }
+
+    .container:hover{
+        box-shadow: 2px 4px 21px 11px #7D9D9C;
+        background: #131313;
+        transition-duration: 0.5s;
+    }
+
+    a{
+        text-decoration: underline;
+        color: aliceblue;
+    }
+
+    #username{
+        font-family: Recoleta, Biotif-Regular, Helvetica, Arial, sans-serif;
+        letter-spacing: 0.5vw;
+    }
+
+    #paste{
+        background: -webkit-linear-gradient(150deg, #7823cc, #f53595, #29a1c5, #af8635);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vh;
+        letter-spacing: 0.3vh;
+        margin-bottom: 5vh;
+    }
+
+    .container > p{
+        font-size: 1vw;
+        font-family: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+        max-width: 90vw;
+    }
+
+    .langs{
+        font-size: 3vw;
+    }
+
+    .lcontainer{
+        padding: 2vh 2vw 2vh 2vw;
+        margin-bottom: 5vh;
+        font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+        text-align: center;
+        transition-duration: 1s;
+        width: 20vw;
+        font-size: 2vh;
+        border-radius: 15px;
+        background: #191919;
+        transition-duration: 0.5s;
+    }
+
+    #test > *{
+        display: inline-block;
+    }
+
+    .lcontainer:hover{
+        box-shadow: 2px 4px 21px 11px #7D9D9C;
+        background: #131313;
+        transition-duration: 0.5s;
+    }
+
+    .end{
+        margin-bottom: 60vw; 
+        font-size: 1.5vw;
+    }
+
+    .mhm{
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .signature{
+        text-decoration: underline;
+        font-family: 'Brittany Signature';
+    }
+
+    #contact{
+        background: linear-gradient(to right, rgb(182, 182, 182) 0.7%, rgba(0, 0, 0, 0)) left;
+        height: 15vw;
+        width: 100%
+    }
+}

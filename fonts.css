@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Bogart';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bogart'), url('fonts/BOGARTREGULARTRIAL.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Recoleta'), url('fonts/Recoleta-RegularDEMO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Brittany Signature';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Brittany Signature'), url('fonts/BrittanySignature-LjyZ.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Biotif-Regular";
+    src: url("fonts/Biotif-Regular.ttf");
+}
