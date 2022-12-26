@@ -1,15 +1,5 @@
 /*const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
-}
-
-
-function weffect(elemnt, txt, orig=""){
-  for (t of txt){
-    elemnt.innerHTML = orig
-    for (letter of t){
-
-    }
-  }
 }*/
 
 var TxtType = function(el, toRotate, period) {
@@ -90,7 +80,6 @@ window.onload = function() {
         c.style.background = "white"
         i = !(i)
       }else{
-        console.log("e")
         c.style.left = event.pageX + "px"
         c.style.top = event.pageY + "px"
       }

@@ -6,6 +6,17 @@
 }
 
 @font-face {
+    font-family: "Aquatico";
+    src: url("./fonts/Aquatico-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Aquire";
+    src: url("./fonts/Aquire.otf") format("opentype");
+}
+
+
+@font-face {
     font-family: 'Recoleta';
     font-style: normal;
     font-weight: 400;
