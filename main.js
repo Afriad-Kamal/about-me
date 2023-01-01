@@ -85,4 +85,7 @@ window.onload = function() {
       }
     }) 
   }
+  l = new Date(Math.abs(new Date("2025-3-9") - new Date()) - new Date("3940-1-1")).toLocaleString().split(" ")[0].split('/').reverse()
+  console.clear()
+  console.log(`I got ${l[0]}years, ${l[1]}months and ${l[2]}days until I reach 18 years old!! :D`)
 };
