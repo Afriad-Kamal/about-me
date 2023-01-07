@@ -1,6 +1,6 @@
-/*const sleep = (milliseconds) => {
+const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
-}*/
+}
 
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -85,7 +85,20 @@ window.onload = function() {
       }
     }) 
   }
-  l = new Date(Math.abs(new Date("2025-3-9") - new Date()) - new Date("3940-1-2")).toLocaleString().split(" ")[0].split('/').reverse()
+  l = new Date(Math.abs(new Date("2025-3-9") - new Date()) - new Date("3940-1-30")).toLocaleString().split(" ")[0].split('/').reverse()
+  sleep(1)
   console.clear()
   console.log(`I got ${l[0]}years, ${l[1]}months and ${l[2]}days left until I reach 18 years old!! :D`)
+  document.addEventListener('scroll', function(){
+    currentHash = "#"
+    Object.values(document.getElementsByClassName("paste")).forEach(pa => {
+      var top = window.pageYOffset;
+      var distance = top - pa.offsetTop;
+      hash = pa.id 
+      if (distance < 10 && distance > -10 && currentHash != hash) {
+        window.location.hash = (hash);
+        currentHash = hash;
+      }
+    });
+  })
 };
