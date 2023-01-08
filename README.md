@@ -72,3 +72,7 @@ just a simple webpage about me that I use as a portfolio or a bio for my social 
 ## Links
 
 - <a href="https://afriad-kamal.github.io/about-me">https://afriad-kamal.github.io/about-me</a>
+
+## Screenshots
+
+![screenshot](https://github.com/Afriad-Kamal/about-me/raw/main/screenshot.png)
