@@ -53,8 +53,6 @@ just a simple webpage about me that I use as a portfolio or a bio for my social 
 
 - Nvm, my page doesn't appear anymore on search engines :')
 
-## Lastest Updates
-
 - Additional browser support
 
 - Add more integrations
@@ -69,9 +67,15 @@ just a simple webpage about me that I use as a portfolio or a bio for my social 
 
 - More compability
 
+## Lastest Updates
+
+- Added <a href="https://afriad-kamal.github.io/">my second page</a> to the page in the <a href="https://afriad-kamal.github.io/about-me/#contact-me">contact section</a> :D
+
 ## Links
 
 - <a href="https://afriad-kamal.github.io/about-me">https://afriad-kamal.github.io/about-me</a>
+
+- <a href="https://afriad-kamal.github.io/">https://afriad-kamal.github.io/</a>
 
 ## Screenshots
 
